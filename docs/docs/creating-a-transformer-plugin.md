@@ -15,6 +15,14 @@ The purpose of this doc is to:
 1.  Define what a Gatsby transformer plugin is, and
 2.  Walk through a simplified reimplementation of an existing plugin, to demonstrate how to create a transformer plugin.
 
+# Table of Contents
+
+- [What do transformer plugins do?](#what-do-transformer-plugins-do)
+- [What fields are required?](#what-fields-are-required)
+  - [Make sure the data is sourced](#make-sure-the-data-is-sourced)
+  - [Transform nodes of type `text/yaml`](#transform-nodes-of-type-text-yaml)
+- [Using the cache](#using-the-cache)
+
 ## What do transformer plugins do?
 
 Transformer plugins "transform" data of one type into another type. You'll often use both source plugins and transformer plugins in your Gatsby sites.
